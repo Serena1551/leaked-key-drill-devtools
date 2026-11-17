@@ -1,0 +1,13 @@
+{
+  "name": "leaked-key-drill-devtools",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node --experimental-strip-types src/leaked-key-drill.ts",
+    "test": "node --experimental-strip-types src/leaked-key-drill.test.ts",
+    "typecheck": "node --experimental-strip-types --check src/leaked-key-drill.ts"
+  },
+  "dependencies": {
+    "zod": "^3.23.8"
+  }
+}
